@@ -41,4 +41,11 @@ body {
   {
     margin-left: 100px;
   }
+
+
+  .answer1,.answer2,.answer3,.answer4,.answer5,.answer6
+  {
+    margin-right: 150px;
+    text-align: justify;
+  }
   
