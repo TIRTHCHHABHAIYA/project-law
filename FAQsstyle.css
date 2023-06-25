@@ -1,0 +1,44 @@
+/* Add your custom styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 0;
+    background-color: #202124;
+    color: #fff;
+  }
+  
+
+  
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .faq {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    cursor: pointer;
+  }
+  
+  .answer {
+    display: none;
+  }
+  
+  .answer p {
+    margin: 0;
+  }
+  
+  footer {
+    text-align: center;
+    color: #ccc;
+
+  }
+
+  .faqss
+  {
+    margin-left: 100px;
+  }
+  

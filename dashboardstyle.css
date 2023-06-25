@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=K2D:ital,wght@0,100;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=K2D:ital,wght@1,300&display=swap');  
+body
+{
+  background-color:#202124;
+}
+header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  .active {
+    background-color: #555;
+  }
+
+  #imagess
+    {
+    position: relative;  
+    height: 300px;
+    width: 300px;
+    }
+ 
+
+    .container {
+      display: flex;
+    }
+    
+    .image {
+      flex: 1;
+      padding: 35px;
+    }
+    
+    .image-description {
+      flex: 1;
+      padding: 20px;
+      padding-top: 150px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+    }
+    .image-description p {
+     text-size-adjust: 50px;
+
+    }
+
+/* 
+    #textareaa
+    {
+      position: absolute;
+width: 579px;
+height: 64px;
+left: 350px;
+top: 148px;
+
+background: #C29C9C;
+border-radius: 50px
+    } */
+
+
+div.container div.image-description p
+{
+  
+  position: absolute;
+  width: 334px;
+  height: 54px;
+  left: 804px;
+  top: 120px;
+  
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+  
+  color: #FFFFFF;
+  
+}
+/* #btn{
+position: absolute;
+width: 220px;
+height: 44px;
+left: 890px;
+top: 455px;
+background: #C55CEF;
+border-radius: 20px;
+} */
+
+#lets{
+position: absolute;
+width: auto;
+height: 29px;
+left: 935px;
+top: 438px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #fff;
+
+}
+
+.textarea {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+  outline: none;
+  background-color: #C29C9C;
+}
+
+.textarea:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 5px #66afe9;
+}
+textarea::placeholder {
+  color: #000000; /* Change to your desired color */
+}
+
+.searchbtn
+{
+
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  height: 44px;
+  left: 900px;
+  top: 390px;
+  background: #4d555a;
+  border-radius: 20px;
+
+
+/* TEXT "LET'S START" CODE  */
+position: absolute;
+width: auto;
+font-weight: 700;
+font-size: 24px;
+line-height: 21px;
+color: #fff;
+
+
+}
+
+
+.textarea2 {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+  outline: none;
+  background-color: #C29C9C;
+}
+
+.textarea2:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 5px #66afe9;
+}
+textarea2::placeholder {
+  color: #000000; /* Change to your desired color */
+}
+
+.description2
+{
+  position: absolute;
+  width: 334px;
+  height: 54px;
+  left: 1135px;
+  top: 90px;
+  
+  
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+  
+  color: #FFFFFF;
+}
+
+
+footer {
+  margin-top: 165px;
+  background-color: #333;
+  color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 40px;
+}
+
+.footer-logo h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-links ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footerss
+{
+  margin-top: 0px;
+}
